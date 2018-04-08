@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/var/www/djp/ntproject/lib/properties.py", line 25, in i18n
+    es = gettext.translation(mo, Config.i18nPath, languages=['2'])
+  File "/usr/lib/python2.7/gettext.py", line 487, in translation
+    raise IOError(ENOENT, 'No translation file found for domain', domain)
+IOError: [Errno 2] No translation file found for domain: 'tree'

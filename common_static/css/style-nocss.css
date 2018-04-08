@@ -1,0 +1,41 @@
+
+/*剔除CSS效果*/
+#nocss .nocss li { display: list-item }/*默认以列表显示*/
+#nocss .nocss table { display: table }/*默认为表格显示*/
+#nocss .nocss tr { display: table-row }/*默认为表格行显示*/
+#nocss .nocss thead { display: table-header-group }/*默认为表格头部分组显示*/
+#nocss .nocss tbody { display: table-row-group }/*默认为表格行分组显示*/
+#nocss .nocss tfoot { display: table-footer-group }/*默认为表格底部分组显示*/
+#nocss .nocss col { display: table-column }/*默认为表格列显示*/
+#nocss .nocss colgroup { display: table-column-group }/*默认为表格列分组显示*/
+#nocss .nocss td, .nocss th { display: table-cell; }/*默认为单元格显示*/
+#nocss .nocss caption { display: table-caption }/*默认为表格标题显示*/
+#nocss .nocss th { font-weight: bolder; text-align: center }/*默认为表格标题显示，呈现加粗居中状态*/
+#nocss .nocss caption { text-align: center }/*默认为表格标题显示，呈现居中状态*/
+#nocss .nocss h1 { font-size: 2em; margin: .67em 0 }
+#nocss .nocss h2 { font-size: 1.5em; margin: .75em 0 }
+#nocss .nocss h3 { font-size: 1.17em; margin: .83em 0 }
+#nocss .nocss h4, .nocss p, .nocss blockquote, .nocss ul, .nocss fieldset, .nocss form, .nocss ol, .nocss dl, .nocss dir, .nocss menu { margin: 1.12em 0 }
+#nocss .nocss h5 { font-size: .83em; margin: 1.5em 0 }
+#nocss .nocss h6 { font-size: .75em; margin: 1.67em 0 }
+#nocss .nocss h1, .nocss h2, .nocss h3, .nocss h4, .nocss h5, .nocss h6, .nocss b,.nocss strong { font-weight: bolder }
+#nocss .nocss blockquote { margin-left: 40px; margin-right: 40px }
+#nocss .nocss i, .nocss cite, .nocss em,.nocss var, .nocss address { font-style: italic }
+#nocss .nocss pre, .nocss tt, .nocss code, .nocss kbd, .nocss samp { }
+#nocss .nocss pre { white-space: pre }
+#nocss .nocss button, .nocss textarea, .nocss input, .nocss object, .nocss select { display:inline-block; }
+#nocss .nocss big { font-size: 1.17em }
+#nocss .nocss small, .nocss sub, .nocss sup { font-size: .83em }
+#nocss .nocss sub { vertical-align: sub }/*定义sub元素默认为下标显示*/
+#nocss .nocss sup { vertical-align: super }/*定义sub元素默认为上标显示*/
+#nocss .nocss table { border-spacing: 2px; }
+#nocss .nocss thead, .nocss tbody, .nocss tfoot { vertical-align: middle }/*定义表头、主体表、表脚元素默认为垂直对齐*/
+#nocss .nocss td, .nocss th { vertical-align: inherit }/*定义单元格、列标题默认为垂直对齐默认为继承*/
+#nocss .nocss s, .nocss strike, .nocss del { text-decoration: line-through }/*定义这些元素默认为删除线显示*/
+#nocss .nocss hr { border: 1px inset }/*定义分割线默认为1px宽的3D凹边效果*/
+#nocss .nocss ol, .nocss ul, .nocss dir, .nocss menu, .nocss dd { margin-left: 40px }
+#nocss .nocss ol { list-style-type: decimal }
+#nocss .nocss ol ul, .nocss ul ol, .nocss ul ul, .nocss ol ol { margin-top: 0; margin-bottom: 0 }
+#nocss .nocss u, .nocss ins { text-decoration: underline }
+#nocss .nocss br:before { content: 'A' }
+#nocss .nocss img { display: inherit;float: inherit;margin: 0px;}

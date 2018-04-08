@@ -1,0 +1,40 @@
+body { -moz-user-select: none; }
+#datamap{width:100%;height:100%}
+.block .block_content.form ul {
+  border: 1px solid #aaa;
+  padding: 0;
+  position: relative;
+}
+.block .block_content.form ul li:last-child{border-bottom: 0px solid;}
+.block .block_content.form ul li {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-bottom: 1px solid #aaa;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+.block .block_content.form ul li{}
+.block .block_content.form ul li.title{}
+.block .block_content.form ul li.selected{background-color:#9FC50F;color:#ffffff;cursor: pointer;}
+.block .block_content.form ul li.opt:hover{background-color:#CDEA59;color:#ffffff;cursor: pointer;}
+.block .block_content.form ul li.ipt {padding-left: 35px;text-align: left;}
+.block .block_content.form ul li.ipt input {
+  float: right;
+  margin-right: 3%;
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 40px;
+}
+.block .block_content.form ul li.sub::before {
+  background-color: #aaa;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+.block .block_content.form .divcontrol div{text-align: center;padding: 5px;}

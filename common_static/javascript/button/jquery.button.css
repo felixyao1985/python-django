@@ -1,0 +1,51 @@
+.block input.submit {
+	width: 40px;
+	height: 40px;
+	background: none;
+	text-indent:-9999px; 
+}
+	
+.block input.submit:hover {
+	background: none;
+}
+
+.block input.submit:active {
+	background: none;
+}
+
+.block input.submit.tiny {
+	width: 30px;
+	height: 30px;
+	background: none;
+	text-indent:-9999px; 
+}
+
+.block #frmSearch input.submit.tiny {
+	width: 20px;
+	height: 20px;
+	background: none;
+	text-indent:-9999px; 
+}
+	
+.block input.submit.tiny:hover {
+	background: none;
+}
+
+.block input.submit.tiny:active {
+	background: none;
+}
+
+.block input.submit.tinyer {
+	width: 24px;
+	height: 24px;
+	background: none;
+	text-indent:-9999px; 
+}
+	
+.block input.submit.tinyer:hover {
+	background: none;
+}
+
+.block input.submit.tinyer:active {
+	background: none;
+}

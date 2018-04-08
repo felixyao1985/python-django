@@ -1,0 +1,48 @@
+﻿<CuPlayer>
+      <Player_Set 
+		JcScpBufferTime = "5"
+ 		JcScpVolume = "75"
+		JcScpCode = "utf8"
+ 		JcScpImgDisplay = "no"
+		JcScpAutoHideControl="no"
+		JcScpControlHideTime="0.5"
+		JcScpControlHeight="40"	
+		JcScpShowList= "next"
+		JcScpAutoRepeat = "no"
+		JcScpAutoPlay = "no"
+		JcScpsetMode = "1"
+		JcScpAFrontCanClose = "no"
+		JcScpShowRightmenu = "no"
+		JcScpShareMode = "JcScpVideoPath"
+	/>
+     
+      <Flashvars_Set
+		JcScpServer =""
+		JcScpVideoPath = ""
+		JcScpVideoPathHD = ""
+		JcScpImg ="Images/flashChangfa2.jpg" 
+        
+		ShowJcScpAFront = "no"
+		JcScpCountDowns = "10"
+		JcScpCountDownsPosition = "top-right"
+		JcScpAFrontW = "645"
+		JcScpAFrontH = "300"
+	 />
+
+	 <SkinColor_Set
+ 		JcScpBackcolor = "0x000000"
+ 		JcScpBackcolortop = "0x353535"
+ 		JcScpLightcolor = "0xcfcfcf"
+
+ 		JcScpFontcolor = "0xffffff"
+ 		JcScptimebg = "0x393939"
+
+ 		JcScpLoadbar = "0x898989"
+ 		JcScpLoaded = "0x4d4b4b"
+ 		JcScpLoadbg = "0x000000"
+ 		JcScpPlayBtn = "0x2d2d2d"
+		
+ 		JcScpBar = "0xffffff"
+	 />
+</CuPlayer>
+

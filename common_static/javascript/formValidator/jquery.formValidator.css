@@ -1,0 +1,55 @@
+.onShow, .onFocus, .onError, .onCorrect, .onLoad {
+	padding: 10px 15px 10px 40px;
+	margin: 10px 0;
+	font-weight: bold;
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.onShow p, .onFocus p, .onError p, .onCorrect p, .onLoad p {
+	padding: 0;
+	width: 93%;
+	float: left;
+}
+
+.onShow
+{
+	border: 1px solid #bbdbe0;
+	background: #ecf9ff url(images/onShow.gif) 12px 12px no-repeat;
+	color: #0888c3;
+}
+.onFocus
+{
+    border: 1px solid #bbdbe0;
+	background: #ecf9ff url(images/onFocus.gif) 12px 12px no-repeat;
+	color: #0888c3;
+}
+.onError
+{
+	border: 1px solid #e9c59b;
+	background: #ffecce url(images/onError.gif) 12px 12px no-repeat;
+	color: #e3302c;
+}
+.onCorrect
+{
+	border: 1px solid #bfde84;
+	background: #edfbd8 url(images/onCorrect.gif) 12px 12px no-repeat;
+	color: #508600;
+}
+.onLoad
+{
+	border: 1px solid #e5e181;
+	background: #fefde2 url(images/onLoad.gif) 12px 12px no-repeat;
+	color: #666;
+} 
+
+.onShow, .onFocus, .onError, .onCorrect, .onLoad {
+    position: absolute;
+    left: 15px;
+    top: 3px;
+    min-width: 120px;
+	height: 16px;
+    line-height: 16px;
+}

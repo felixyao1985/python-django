@@ -1,0 +1,2 @@
+.block_content.map{float:left;width:calc(100% - 380px);-moz-calc(100% - 380px);-webkit-calc(100% - 380px);height:600px;overflow: hidden;}
+.block_content.form{float:right;width:300px;height:600px;overflow-y: auto;overflow-x: hidden;}
